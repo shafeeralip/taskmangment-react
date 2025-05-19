@@ -1,4 +1,4 @@
-const Base_URL = 'http://127.0.0.1:8000'
+const Base_URL = 'https://taskmangement-fastapi-gtb4egenbkayg3f5.canadacentral-01.azurewebsites.net'
 
 export const getTasks = async() =>{
     const res = await fetch(`${Base_URL}/tasks`)
